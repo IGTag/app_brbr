@@ -1,3 +1,11 @@
-export default function Home() {
-  return <h1>Pagina Inicial</h1>;
-}
+"use client";
+
+import { useState } from "react";
+
+const Home = () => {
+  const [] = useState();
+
+  return <h1 className="text-red-500 mb-50">Text Example</h1>;
+};
+
+export default Home;
